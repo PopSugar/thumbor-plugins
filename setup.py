@@ -32,7 +32,7 @@ setup(
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
         'Topic :: Multimedia :: Graphics :: Presentation'
     ],
-    packages=['thumbor_plugins', 'thumbor_plugins.optimizers'],
+    packages=['thumbor_plugins', 'thumbor_plugins.optimizers', 'thumbor_plugins.filters'],
     package_dir={"thumbor_plugins": "thumbor_plugins"},
     install_requires=[
         'thumbor',
