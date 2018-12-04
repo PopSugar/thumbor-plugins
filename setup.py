@@ -35,7 +35,7 @@ setup(
     packages=['thumbor_plugins', 'thumbor_plugins.optimizers', 'thumbor_plugins.filters'],
     package_dir={"thumbor_plugins": "thumbor_plugins"},
     install_requires=[
-        'thumbor',
+        'thumbor>=6.6.0',
     ],
     extras_require={
         'tests': [
